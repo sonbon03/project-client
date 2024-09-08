@@ -10,7 +10,7 @@ import {
   pickBy,
   omitBy,
 } from "lodash";
-import store from "../redux copy/store";
+import store from "../redux/store";
 import jwt_decode from "jwt-decode";
 
 BigNumber.config({ EXPONENTIAL_AT: 1e9 });
