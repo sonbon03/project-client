@@ -1,7 +1,7 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
 import { customFetchBase } from "./customFetchBase";
 
-const BASE = "http://localhost:8000/api/api/users";
+const BASE = "/api/users";
 
 export const authApi = createApi({
   reducerPath: "authApi",

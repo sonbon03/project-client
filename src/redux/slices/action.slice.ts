@@ -22,6 +22,6 @@ const actionSlice = createSlice({
 });
 
 const actionReducer = actionSlice.reducer;
-// export const actionSelector = (state: RootState) => state.action;
+export const actionSelector = (state: RootState) => state.action;
 export const { updateActiveTab } = actionSlice.actions;
 export { actionReducer };

@@ -27,7 +27,6 @@ const authSlice = createSlice({
       state.accessToken = action.payload.accessToken;
       state.type = action.payload.type;
     },
-
     logout: (state, action: PayloadAction) => {
       state.user = null;
       state.type = "";
@@ -46,6 +45,5 @@ const authPersistConfig = {
 const authReducer = authSlice.reducer;
 export const authSelector = (state: RootState) => state.auth;
 export const useUser = () => useSelector((state: RootState) => state.auth.user);
-
 export const { login, logout } = authSlice.actions;
 export { authReducer, authPersistConfig };
