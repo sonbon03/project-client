@@ -1,0 +1,164 @@
+﻿/* ================= CSS Default ================= */
+@font-face {
+    font-family: "FontDemo_A";
+    /* src: url('../fonts/FontDemo.ttf') format('truetype'); */
+}
+
+@font-face {
+    font-family: "FontDemo_B";
+    /* src: url('../fonts/FontDemo.ttf') format('truetype'); */
+}
+
+@font-face {
+    font-family: "FontDemo_C";
+    /* src: url('../fonts/FontDemo.ttf') format('truetype'); */
+}
+
+:root {
+    --light: #f7f8fa;
+    --text: #747579;
+    --title: #3f434c;
+    --border: #c8c9cb;
+
+    --green: #58b958;
+    --white: #ffffff;
+
+    --font: "FontDemo_A", Roboto, Arial, sans-serif;
+    --font_b: "FontDemo_B", Roboto, Arial, sans-serif;
+    --font_spec: "FontDemo_C", Roboto, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+img {
+    transition: all 0.3s ease;
+}
+
+a:focus {
+    outline: none;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.25;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font_spec);
+}
+
+h4,
+h5,
+h6 {
+    font-family: var(--font_b);
+}
+
+b,
+strong {
+    font-family: var(--font_b);
+    font-weight: normal;
+}
+
+body {
+    font-family: var(--font);
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.85;
+    margin-bottom: 0;
+}
+
+/* ================= CSS Config (If you don't really need it, delete it) ================= */
+.space_section {
+    padding: 90px 0;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* ================= CSS FULL (content you write code here) ================= */
+
+.text-red {
+    color: red;
+}
+
+/* ================= HEADER ================= */
+
+
+/* ================= MAIN ================= */
+
+
+/* ================= FOOTER ================= */
+
+
+/* ================= Few Option ================= */

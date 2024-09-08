@@ -1,0 +1,39 @@
+
+/* -------------- Introduction -------------- */
+<article>
+	<hgroup>
+	 	<hr />
+		<h5> ----- </h5>
+		<h2> ----- </h2>
+	</hgroup>
+	<p> ----- </p>
+	<ul>
+		<li><span class = ""></span> ----- </li>
+	</ul>
+</article>
+
+
+
+/* -------------- Info-Index -------------- */
+<h3> ----- </h3>
+<h6> ----- </h6>
+<p> ----- </p>
+					
+
+
+/* -------------- All title -------------- */
+<h5> ----- </h5>
+<h2> ----- </h2>
+<hr />
+<p> ----- </p>
+
+
+Font đẹp: 
+	- Quicksan, Roboto, Poppins, Oswald, IBMPlexSans, Righteous
+	- DINNext, Barlow Semi, IBM Plex Sans, Saira, Josefin_Sans, Rajdhani
+
+Font hoa văn:
+	- El Harak Photoara.blogspot.com
+	- Font 100 icon 2018 (font Fanpage)
+	- MS Outlook (font icon)
+	- Nature Pro (font animal)
